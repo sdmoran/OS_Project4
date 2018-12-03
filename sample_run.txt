@@ -1,0 +1,215 @@
+Script started on Thu 11 Oct 2018 01:26:58 PM EDT
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ exit./proj4 "beemovie.txt" bee 1024exit[K./proj4 "beemovie.txt" bee 1024
+Method used: SIZE
+
+Occurrences of search string: 140
+File size: 55315 bytes
+Time elapsed (microseconds): 177
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee 1024[K[K[K[K2048
+Method used: SIZE
+
+Occurrences of search string: 140
+File size: 55315 bytes
+Time elapsed (microseconds): 166
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee 2048[K[K[K[K4096
+Method used: SIZE
+
+Occurrences of search string: 140
+File size: 55315 bytes
+Time elapsed (microseconds): 174
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee 4096[K[K[K[K8192
+Method used: SIZE
+
+Occurrences of search string: 140
+File size: 55315 bytes
+Time elapsed (microseconds): 176
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee 8192[K[K[K[Kmmap
+Method used: MMAP
+
+Occurrences of search string: 140
+File size: 55315 bytes
+Time elapsed (microseconds): 148
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee mmap[K[K[K[Kp[[K1
+Method used: MMAP with 1 threads
+File size: 55315 bytes
+Occurences of search string: 140
+File size: 0 bytes
+Time elapsed (microseconds): 185
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee p1[K2
+Method used: MMAP with 2 threads
+File size: 55315 bytes
+Occurences of search string: 140
+File size: 0 bytes
+Time elapsed (microseconds): 211
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee p2[K3[K4
+Method used: MMAP with 4 threads
+File size: 55315 bytes
+Occurences of search string: 140
+File size: 0 bytes
+Time elapsed (microseconds): 233
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee p4[K6[K8
+Method used: MMAP with 8 threads
+File size: 55315 bytes
+Occurences of search string: 140
+File size: 0 bytes
+Time elapsed (microseconds): 255
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee p8[K16
+Method used: MMAP with 16 threads
+File size: 55315 bytes
+Occurences of search string: 140
+File size: 0 bytes
+Time elapsed (microseconds): 339
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "beemovie.txt" bee p16[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@r[1@o[1@j[1@4[C[C[C[C[C[1P p16[1P p16[1P p16z p16[C[C[C[C[K[K[Kmmap[K[K[K[K1023[K4
+Method used: SIZE
+
+Occurrences of search string: 7
+File size: 12820 bytes
+Time elapsed (microseconds): 70
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z 1024[K[K[K[K2048
+Method used: SIZE
+
+Occurrences of search string: 7
+File size: 12820 bytes
+Time elapsed (microseconds): 69
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z 2048[K[K[K[K4096
+Method used: SIZE
+
+Occurrences of search string: 7
+File size: 12820 bytes
+Time elapsed (microseconds): 104
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z 4096[K[K[K[K8192
+Method used: SIZE
+
+Occurrences of search string: 7
+File size: 12820 bytes
+Time elapsed (microseconds): 64
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z 8192[K[K[K[K[K mmap
+Method used: MMAP
+
+Occurrences of search string: 7
+File size: 12820 bytes
+Time elapsed (microseconds): 67
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z mmap[K[K[K[K[1[K[Kp1
+Method used: MMAP with 1 threads
+File size: 12820 bytes
+Occurences of search string: 7
+File size: 0 bytes
+Time elapsed (microseconds): 97
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z p1[K2
+Method used: MMAP with 2 threads
+File size: 12820 bytes
+Occurences of search string: 7
+File size: 0 bytes
+Time elapsed (microseconds): 114
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z p2[K3[K4
+Method used: MMAP with 4 threads
+File size: 12820 bytes
+Occurences of search string: 7
+File size: 0 bytes
+Time elapsed (microseconds): 129
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z p4[K8
+Method used: MMAP with 8 threads
+File size: 12820 bytes
+Occurences of search string: 7
+File size: 0 bytes
+Time elapsed (microseconds): 180
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z p8[K16
+Method used: MMAP with 16 threads
+File size: 12820 bytes
+Occurences of search string: 7
+File size: 0 bytes
+Time elapsed (microseconds): 266
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 proj4 z p16[1P816[K./proj4 proj4 z p16[1P8421mmap8192409620481024"beemovie.txt" bee p16[1P8421mmap8192409620481024[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1@t[1@e[1@s[1@t
+Method used: SIZE
+
+Occurrences of search string: 0
+File size: 383 bytes
+Time elapsed (microseconds): 44
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee 1024[8Pproj4 z p16"test.txt" bee 1024[K[K[K[K2048
+Method used: SIZE
+
+Occurrences of search string: 0
+File size: 383 bytes
+Time elapsed (microseconds): 47
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee 2048[K[K[K[K4096
+Method used: SIZE
+
+Occurrences of search string: 0
+File size: 383 bytes
+Time elapsed (microseconds): 49
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee 4096[K[K[K[K8192
+Method used: SIZE
+
+Occurrences of search string: 0
+File size: 383 bytes
+Time elapsed (microseconds): 48
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee 8192[K[K[K[Kmmap
+Method used: MMAP
+
+Occurrences of search string: 0
+File size: 383 bytes
+Time elapsed (microseconds): 43
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee mmap[K[K[Kp[K[Kp1
+Method used: MMAP with 1 threads
+File size: 383 bytes
+Occurences of search string: 0
+File size: 0 bytes
+Time elapsed (microseconds): 77
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee p1[K2
+Method used: MMAP with 2 threads
+File size: 383 bytes
+Occurences of search string: 0
+File size: 0 bytes
+Time elapsed (microseconds): 86
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee p2[K4
+Method used: MMAP with 4 threads
+File size: 383 bytes
+Occurences of search string: 0
+File size: 0 bytes
+Time elapsed (microseconds): 106
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee p4[K8
+Method used: MMAP with 8 threads
+File size: 383 bytes
+Occurences of search string: 0
+File size: 0 bytes
+Time elapsed (microseconds): 220
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ ./proj4 "test.txt" bee p8[K16
+Method used: MMAP with 16 threads
+File size: 383 bytes
+Occurences of search string: 0
+File size: 0 bytes
+Time elapsed (microseconds): 269
+Page Faults: 0
+]0;sam@sam-VirtualBox: ~/Desktop/proj4[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/proj4[00m$ exit
+exit
+
+Script done on Thu 11 Oct 2018 01:29:06 PM EDT

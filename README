@@ -1,0 +1,4 @@
+OPERATING SYSTEMS - PROJECT 4
+Sam Moran, Fall 2018
+
+C program which searches the bytes of a file (text or otherwise) for the given search string. It takes as input the name of the file to search and the string to search for. The program has two "modes." It can either read the file in chunks of a specified number of bytes, or it can map the contents of the file to memory and use multiple threads to search for the string simultaneously.
